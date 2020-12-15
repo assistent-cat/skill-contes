@@ -5,7 +5,7 @@ Habilitat per a [Mycroft](https://mycroft.ai/) que reprodueix els contes d'[una 
 ## Instal·lació
 
 ```
-$ mycroft-pip install git@github.com:assistent-cat/mycroft-skill-contes.git
+$ msm install git@github.com:assistent-cat/skill-contes.git
 ```
 
 ## Exemples
