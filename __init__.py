@@ -123,7 +123,7 @@ class ContesSkill(OVOSCommonPlaybackSkill):
                 "title": titol + " (audio)",
                 "match_confidence": score - 10,
                 "media_type":  CPSMatchType.AUDIOBOOK,
-                "uri": url,
+                "uri": self.contes[titol],
                 "playback": CPSPlayback.AUDIO,
                 "image": join(dirname(__file__), "ui", "logo.png"),
                 "bg_image": join(dirname(__file__), "ui", "bg.png"),
